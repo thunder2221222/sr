@@ -1,6 +1,7 @@
 import discord
 import asyncio
 import aiohttp
+import os
 import urllib.parse
 
 # ========== CONFIGURATION ==========
