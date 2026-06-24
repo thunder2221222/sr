@@ -10,7 +10,7 @@ TOKEN = os.getenv("TOKEN")
 SUPER_EMOJI = "☠️"
 # ===================================
 
-client = discord.Client(self_bot=True)
+client = discord.Client()
 auto_react_enabled = True  
 
 async def add_super_reaction(channel_id, message_id, emoji):
